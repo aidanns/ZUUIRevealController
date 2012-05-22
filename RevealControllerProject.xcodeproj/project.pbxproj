@@ -383,10 +383,7 @@
 		12410CCF152137DD00DE1CD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				BASE_PRODUCT_NAME = ZUUIRevealController;
 				DSTROOT = /tmp/ZUUIRevealController.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -408,10 +405,7 @@
 		12410CD0152137DD00DE1CD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				BASE_PRODUCT_NAME = ZUUIRevealController;
 				DSTROOT = /tmp/ZUUIRevealController.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
